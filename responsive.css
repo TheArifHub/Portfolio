@@ -1,0 +1,541 @@
+@media (min-width: 320px) and (max-width: 576px) {
+  .page-1 {
+    background: linear-gradient(to top, #fff 50%, #1f75ff 50%);
+  }
+
+  .logo a {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    padding: 0 30px;
+    border-bottom: 2px solid black;
+  }
+
+  #menu {
+    font-size: 1.2rem;
+    display: flex;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .left {
+    height: calc(50vh - 37.5px);
+    width: 100%;
+    padding: 60px 20px 10px 20px;
+    justify-content: flex-start;
+    align-items: self-start;
+    gap: 1.5rem;
+  }
+
+  .left h1 {
+    font-size: 6vw;
+    white-space: nowrap;
+  }
+
+  .left h2 {
+    font-size: 5vw;
+  }
+
+  .btns {
+    gap: 2vw;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 3vw;
+  }
+
+  .right {
+    height: calc(50vh - 37.5px);
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shape {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+
+  .shape img {
+    position: absolute;
+    top: -140px;
+    right: -35px;
+    height: 500px;
+    width: auto;
+  }
+
+  .shape:hover {
+    border-radius: 50%;
+    background-color: orange;
+  }
+
+  .menu-list {
+    padding-top: 20px;
+    position: absolute;
+    display: none;
+    height: 300px;
+    width: 100%;
+    background-color: #ffffff7c;
+    backdrop-filter: blur(10px);
+    z-index: 99;
+  }
+
+  .menu-list ul {
+    display: flex;
+  }
+
+  .menu-list ul li a {
+    font-size: 1.2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  li a {
+    color: #fff;
+  }
+
+  .left h1 span {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    -webkit-text-stroke: 0px black;
+    color: orange;
+  }
+
+  .left h1 span::before {
+    height: 0%;
+    width: 0%;
+  }
+
+  .left h1 span:hover::after {
+    height: 0%;
+    width: 0%;
+  }
+
+  .left h2 {
+    -webkit-text-stroke: 0px black;
+  }
+
+  .page-2 {
+    height: 60vh;
+  }
+
+  .page-2 h1 {
+    font-size: 7vw;
+  }
+
+  .page2-left {
+    height: 42.5vh;
+    width: 100vw;
+  }
+
+  .page2-right {
+    display: none;
+  }
+
+  .page2-left .para1 {
+    height: 60%;
+    font-size: 90%;
+  }
+
+  .page2-left .para2 {
+    height: 32%;
+    font-size: 0.9rem;
+  }
+
+  .page-3 {
+    height: 120vh;
+    padding-top: 3rem;
+  }
+
+  .page-3 h1 {
+    font-size: 7vw;
+  }
+
+  .page-3 h1::after {
+    height: 0;
+    width: 0;
+  }
+
+  .timeline {
+    height: 100vh;
+    width: 90vw;
+  }
+
+  .timeline-content::after {
+    left: -7px;
+  }
+
+  .timeline-content::before {
+    left: -20px;
+  }
+
+  .education-box {
+    height: 230px;
+    width: 240px;
+  }
+
+  .education-box h3 {
+    font-size: 17px;
+  }
+
+  .first {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  .second {
+    position: relative;
+    left: 0;
+  }
+
+  .third {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+
+  .page-4 {
+    height: 80vh;
+  }
+
+  .page-4 h1 {
+    font-size: 7vw;
+  }
+
+  .page-4 h1:hover {
+    color: orange;
+  }
+
+  .skills-box {
+    height: 50px;
+    width: 100px;
+    font-size: 1rem;
+  }
+
+  .page-5 {
+    height: 270vh;
+    gap: 2rem;
+  }
+
+  .page-5 h1 {
+    font-size: 7vw;
+  }
+
+  .project-container {
+    height: 250vh;
+    width: 90vw;
+    gap: 2rem;
+  }
+
+  .card {
+    min-height: 580px;
+    width: 300px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+  .page-6 {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #fff 50%, #1f75ff 50%);
+    flex-direction: column;
+  }
+
+  .left-side {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-side h1 {
+    font-size: 7vw;
+  }
+
+  .left-side img {
+    height: 220px;
+    width: 300px;
+  }
+
+  .right-side {
+    height: 50%;
+    width: 100%;
+    display: flex;
+  }
+
+  .right-side form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .input-fields input {
+    height: 40px;
+    width: 70vw;
+    font-size: 1.1rem;
+    padding: 0 0 0 2.4rem;
+    position: relative;
+  }
+
+  .input-fields i {
+    font-size: 1.3rem;
+    position: relative;
+    top: 0;
+    left: 2rem;
+    z-index: 999;
+  }
+
+  .input-fields textarea {
+    margin-left: 2rem;
+    width: 70vw;
+    resize: vertical;
+    padding: 1rem 0 0 2rem;
+    font-size: 1.1rem;
+  }
+
+  .contact-btn {
+    height: 40px;
+    width: 70vw;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: black;
+  }
+
+  .contact-btn:hover {
+    background-color: orange;
+    color: #fff;
+    transition: all;
+    transition-duration: 0.3s;
+  }
+
+  .page-7 {
+    gap: 1.2rem;
+  }
+
+  .social-links {
+    height: 40px;
+    width: 40px;
+    font-size: 1.4rem;
+  }
+}
+
+
+
+
+
+@media (min-width:577px) and (max-width:992px) {
+
+  nav {
+    height: 75px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #menu {
+    font-size: 1.2rem;
+    display: flex;
+    cursor: pointer;
+    color: #000;
+  }
+
+    .menu-list {
+    padding-top: 80px;
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff7c;
+    backdrop-filter: blur(10px);
+    z-index: 99;
+  }
+
+  .menu-list ul {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .menu-list ul li a {
+    font-size: 1.2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    display: flex;
+  }
+
+  .right {
+    height: calc(100vh - 75px);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shape {
+    height: 425px;
+    width: 425px;
+    background-color: #1f75ff;
+    border-radius: 60% 40% 30% 70% / 50% 60% 40% 50%;
+    box-shadow: 8px 6px 0px black;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shape img {
+    position: absolute;
+    top: -150px;
+    right: 20px;
+    height: 600px;
+    width: auto;
+  }
+
+  .shape:hover {
+    border-radius: 70% 30% 40% 60% / 50% 40% 60% 50%;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease;
+    background-color: orange;
+  }
+
+  .left {
+    height: calc(100vh - 75px);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .left h1 {
+    font-size: 2.8rem;
+    color: #fff;
+  }
+
+  .left h1 span {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    position: relative;
+    transition: 0.2s;
+  }
+
+  .left h1 span::before {
+    content: "";
+    left: -8px;
+    position: absolute;
+    background-color: orange;
+    height: 100%;
+    width: 1%;
+  }
+
+  .left h1 span:hover {
+    color: orange;
+  }
+
+  .left h1 span:hover::before {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+  }
+
+  .left h1 span:hover::after {
+    content: "";
+    right: -8px;
+    position: absolute;
+    height: 100%;
+    width: 1%;
+    background-color: orange;
+  }
+
+  .left h2 {
+    color: orange;
+    font-size: 2rem;
+    -webkit-text-stroke: 0.5px black;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .btns {
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .btn {
+    padding: 12px 40px;
+    font-size: 1.1rem;
+    background-color: white;
+    color: black;
+    position: relative;
+    z-index: 10;
+  }
+
+  .btn::before {
+    content: "";
+    left: 50%;
+    bottom: 0px;
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: orange;
+  }
+
+  .btn::after {
+    content: "";
+    right: 50%;
+    bottom: 0px;
+    position: absolute;
+    height: 100%;
+    width: 0;
+
+    background-color: orange;
+  }
+
+  .btn:hover::before {
+    width: 50%;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  .btn:hover::after {
+    width: 50%;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  .menu-list {
+    display: none;
+  }
+}
